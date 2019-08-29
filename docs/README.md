@@ -1,24 +1,24 @@
-# Cosmos Hub Documentation
+# Go-Tichex Documentation
 
-Welcome to the documentation of the **Cosmos Hub application: `gaia`**.
+Welcome to the documentation of the **Tichex application: `go-tichex`**.
 
-## What is Gaia?
+## What is Tichex?
 
-- [Gaia](./what-is-gaia.md)
+- [Tichex](./what-is-Tichex.md)
 
-## Join the Cosmos Hub Mainnet
+## Join the Tichex Mainnet
 
-- [Install the `gaia` application](./installation.md)
+- [Install the `tichex` application](./installation.md)
 - [Set up a full node and join the mainnet](./join-mainnet.md)
 - [Upgrade to a validator node](./validators/validator-setup.md)
 
-## Join the Cosmos Hub Public Testnet
+## Join the Tichex Public Testnet
 
 - [Join the testnet](./join-testnet.md)
 
-## Setup Your Own `gaia` Testnet
+## Setup Your Own `Tichex` Testnet
 
-- [Setup your own `gaia` testnet](./deploy-testnet.md)
+- [Setup your own `tichex` testnet](./deploy-testnet.md)
 
 ## Additional Resources
 
@@ -29,7 +29,7 @@ Welcome to the documentation of the **Cosmos Hub application: `gaia`**.
 
 # Contribute
 
-See [this file](https://github.com/cosmos/gaia/blob/master/docs/DOCS_README.md) for details of the build process and
+See [this file](https://github.com/tichex-project/go-tichex/blob/master/docs/DOCS_README.md) for details of the build process and
 considerations when making changes.
 
 # Version

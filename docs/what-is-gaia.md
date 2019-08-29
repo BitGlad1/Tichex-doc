@@ -1,11 +1,11 @@
-# What is Gaia?
+# What is Tichex?
 
-`gaia` is the name of the Cosmos SDK application for the Cosmos Hub. It comes with 2 main entrypoints:
+`tichex` is the name of the Go-Tichex application. It comes with 2 main entrypoints:
 
-- `gaiad`: The Gaia Daemon, runs a full-node of the `gaia` application.
-- `gaiacli`: The Gaia command-line interface, which enables interaction with a Gaia full-node.
+- `tichexd`: The Tichex Daemon, runs a full-node of the `tichex` application.
+- `tichexcli`: The Tichex command-line interface, which enables interaction with a Tichex full-node.
 
-`gaia` is built on the Cosmos SDK using the following modules:
+`tichex` is built on the Cosmos SDK using the following modules:
 
 - `x/auth`: Accounts and signatures.
 - `x/bank`: Token transfers.
@@ -17,6 +17,4 @@
 - `x/ibc`: Inter-blockchain transfers.
 - `x/params`: Handles app-level parameters.
 
->About the Cosmos Hub: The Cosmos Hub is the first Hub to be launched in the Cosmos Network. The role of a Hub is to facilitate transfers between blockchains. If a blockchain connects to a Hub via IBC, it automatically gains access to all the other blockchains that are connected to it. The Cosmos Hub is a public Proof-of-Stake chain. Its staking token is called the Atom.
-
-Next, learn how to [install Gaia](./installation.md).
+Next, learn how to [install Tichex](./installation.md).

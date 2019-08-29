@@ -4,7 +4,7 @@ Welcome to the documentation of the **Tichex application: `go-tichex`**.
 
 ## What is Tichex?
 
-- [Tichex](./what-is-Tichex.md)
+- [Tichex](./what-is-gaia.md)
 
 ## Join the Tichex Mainnet
 

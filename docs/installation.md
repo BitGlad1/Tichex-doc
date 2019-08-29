@@ -1,6 +1,6 @@
-# Install Gaia
+# Install Tichex
 
-This guide will explain how to install the `gaiad` and `gaiacli` entrypoints
+This guide will explain how to install the `tichexd` and `tichexcli` entrypoints
 onto your system. With these installed on a server, you can participate in the
 mainnet as either a [Full Node](./join-mainnet.md) or a
 [Validator](./validators/validator-setup.md).
@@ -23,7 +23,7 @@ source ~/.bash_profile
 
 ## Install the binaries
 
-Next, let's install the latest version of Gaia. Make sure you `git checkout` the
+Next, let's install the latest version of Tichex. Make sure you `git checkout` the
 correct [released version](https://github.com/cosmos/gaia/releases).
 
 ```bash
@@ -33,19 +33,19 @@ cd gaia && make install
 
 > _NOTE_: If you have issues at this step, please check that you have the latest stable version of GO installed.
 
-That will install the `gaiad` and `gaiacli` binaries. Verify that everything is OK:
+That will install the `tichexd` and `tichexcli` binaries. Verify that everything is OK:
 
 ```bash
-$ gaiad version --long
-$ gaiacli version --long
+$ tichexd version --long
+$ tichexcli version --long
 ```
 
-`gaiacli` for instance should output something similar to:
+`tichexcli` for instance should output something similar to:
 
 ```shell
-name: gaia
-server_name: gaiad
-client_name: gaiacli
+name: tichex
+server_name: tichexd
+client_name: tichexcli
 version: 1.0.0
 commit: 89e6316a27343304d332aadfe2869847bf52331c
 build_tags: netgo,ledger

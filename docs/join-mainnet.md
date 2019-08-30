@@ -121,7 +121,7 @@ Check that everything is running smoothly:
 tichexcli status
 ```
 
-*View the status of the network with the [Cosmos Explorer](https://cosmos.network/launch). 
+*View the status of the network with the [Tichex Explorer](https://tichex.com). 
 
 ## Export State
 

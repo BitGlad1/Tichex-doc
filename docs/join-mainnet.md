@@ -82,7 +82,7 @@ For more information on seeds and peers, you can [read this](https://github.com/
 ## A Note on Gas and Fees
 
 ::: warning
-On Tichex mainnet, the accepted denom is `utcx`, where `1tcx = 1.000.000uatom`
+On Tichex mainnet, the accepted denom is `utcx`, where `1tcx = 1.000.000utcx`
 :::
 
 Transactions on the Tichex network need to include a transaction fee in order to be processed. This fee pays for the gas required to run the transaction. The formula is the following:

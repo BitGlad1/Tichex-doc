@@ -3,11 +3,11 @@
 ::: tip Current Testnet
 See the [testnet repo](https://github.com/cosmos/testnets) for
 information on the latest testnet, including the correct version
-of Gaia to use and details about the genesis file.
+of Tichex to use and details about the genesis file.
 :::
 
 ::: warning
-**You need to [install gaia](./installation.md) before you go further**
+**You need to [install tichex](./installation.md) before you go further**
 :::
 
 ## Starting a New Node
@@ -30,8 +30,8 @@ These instructions are for full nodes that have ran on previous versions of and 
 First, remove the outdated files and reset the data.
 
 ```bash
-rm $HOME/.gaiad/config/addrbook.json $HOME/.gaiad/config/genesis.json
-gaiad unsafe-reset-all
+rm $HOME/.tichexd/config/addrbook.json $HOME/.tichexd/config/genesis.json
+tichexd unsafe-reset-all
 ```
 
 Your node is now in a pristine state while keeping the original `priv_validator.json` and `config.toml`. If you had any sentry nodes or full nodes setup before,
@@ -57,6 +57,6 @@ make update_tools install
 :::
 
 Note we use `master` here since it contains the latest stable release.
-See the [testnet repo](https://github.com/cosmos/testnets) for details on which version is needed for which testnet, and the [Gaia release page](https://github.com/cosmos/gaia/releases) for details on each release.
+See the [testnet repo](https://github.com/cosmos/testnets) for details on which version is needed for which testnet, and the [Tichex release page](https://github.com/cosmos/gaia/releases) for details on each release.
 
 Your full node has been cleanly upgraded!

@@ -44,7 +44,7 @@ Make sure that every node has a unique `priv_validator.json`. Do not copy the `p
 
 ### Software Upgrade
 
-Now it is time to upgrade the software:
+*Now it is time to upgrade the software:
 
 ```bash
 cd $GOPATH/src/github.com/cosmos/gaia
@@ -56,7 +56,7 @@ make update_tools install
 *NOTE*: If you have issues at this step, please check that you have the latest stable version of GO installed.
 :::
 
-Note we use `master` here since it contains the latest stable release.
+*Note we use `master` here since it contains the latest stable release.
 See the [testnet repo](https://github.com/cosmos/testnets) for details on which version is needed for which testnet, and the [Tichex release page](https://github.com/cosmos/gaia/releases) for details on each release.
 
 Your full node has been cleanly upgraded!

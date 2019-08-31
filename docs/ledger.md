@@ -64,21 +64,6 @@ tichexcli keys show <keyName> -d
 
 Confirm that the address displayed on the device matches that displayed when you added the key.
 
-### Connect to a full node
-
-Next, you need to configure tichexcli with the URL of a Tichex full node and the appropriate `chain_id`. In this example we connect to the public load balanced full node operated by Chorus One on the `cosmoshub-2` chain. But you can point your `tichexcli` to any Tichex full node. Be sure that the `chain_id` is set to the same chain as the full node.
-
-```bash
-gaiacli config node https://cosmos.chorus.one:26657
-gaiacli config chain_id cosmoshub-2
-```
-
-Test your connection with a query such as:
-
-``` bash
-`tichexcli query staking validators`
-```
-:::
 
 ### Sign a transaction
 
@@ -112,7 +97,7 @@ To receive funds to the Cosmos account on your Ledger device, retrieve the addre
 tichexcli keys list
 
 ➜ NAME: TYPE: ADDRESS:     PUBKEY:
-<keyName> ledger cosmos1... cosmospub1...
+<keyName> ledger tichex1... tichexpub1...
 ```
 
 ### Further documentation

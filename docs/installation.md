@@ -28,7 +28,7 @@ correct [released version](https://github.com/cosmos/gaia/releases).
 
 ```bash
 git clone -b <latest-release-tag> https://github.com/cosmos/gaia
-cd gaia && make install
+cd tichex && make install
 ```
 
 > _NOTE_: If you have issues at this step, please check that you have the latest stable version of GO installed.

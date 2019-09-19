@@ -22,10 +22,10 @@ export PATH=/usr/local/opt/coreutils/libexec/gnubin/:$PATH
 
 ## Build and sign
 
-Clone cosmos-sdk:
+Clone tichex:
 
 ```
-git clone git@github.com:cosmos/gaia
+git clone git@github.com:cosmos/gaia 
 ```
 
 Checkout the commit, branch, or release tag you want to build:
